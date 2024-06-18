@@ -1,0 +1,184 @@
+/* RESET */
+*   {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Font */
+html {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+/* DEBUG */
+
+
+/* Header */
+
+header {
+    position: relative;
+}
+
+.header-container {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 1;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    display: flex;
+}
+/* Remove li dots and underline */
+
+.ul-header {
+    list-style: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+/*  */
+
+.header-a {
+    color: black;
+}
+
+.dropbox-logo {
+    width: 140px;
+}
+
+.text-space {
+    padding: 15px;
+}
+
+.start-button {
+    background-color: #0061FF;
+    color: white; 
+    padding: 3px 10px;  
+}
+
+.start-button:hover {
+    background-color: white;
+    color: #0061FF;
+    border: solid 1px #0061FF;
+}
+
+/* Main */
+main {
+    padding-top: 60px;
+}
+
+
+/* Free Trial */
+
+.free-trial-container {
+    width: 100%;
+    height: 200px;
+    background-color: #B4D0E7;
+}
+
+.free-trial {
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.free-trial-text {
+    width: 500px;
+}
+
+.free-trial-button {
+    width: 200px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 5px;
+}
+/* Frequent */
+
+.frequent-container {
+    margin: 0 auto;
+    width: 50%;
+    height: 600px;
+    padding: 20px;
+    align-content: center;
+}
+
+.question {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.title-main {
+    font-size: 35px;
+}
+.question-title {
+    padding-bottom: 50px;
+}
+
+
+/* Footer */
+
+footer {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+
+/* Footer with links */
+
+.columns-link {
+    margin: 0 auto;
+    width: 70%;
+    padding: 50px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.title-category {
+    font-size: x-large;
+    padding-bottom: 10px;
+}
+.ul-footer {
+    list-style: none;
+}
+
+.a-footer {
+    color: white;  
+}
+
+.category-li-item {
+    padding-bottom: 10px;
+}
+
+/* Footer with hr and language */
+
+.footer-hr-language {
+    margin: 0 auto;
+    width: 70%;
+    padding: 50px;
+    height:200px;
+    color: white;
+}
+
+#hr {
+    text-align: start;
+    width: 100px;
+}
+
+.footer-language {
+    padding-top: 50px;
+}
