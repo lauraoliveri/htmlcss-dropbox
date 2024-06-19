@@ -381,7 +381,8 @@ em {
 }
 
 .info-column {
-    padding: 15px;
+    margin-bottom: 20px;
+    margin-right: 20px;
 }
 
 .h3-title-column {
@@ -389,7 +390,7 @@ em {
 }
 
 .title-businessinfo {
-    padding: 15px;
+    padding-bottom: 20px;
 }
 
 
@@ -449,7 +450,6 @@ em {
 
 .faqs-container {
     height: 600px;
-    padding: 20px;
     align-content: center;
 }
 
