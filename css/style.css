@@ -63,14 +63,20 @@ a {
     padding: 15px;
 }
 
+.text-space-start {
+    padding: 15px;
+}
+
 .text-space:hover {
     background-color: rgba(230, 230, 230, 0.3);
     border-radius: 50px;
 }
+
 .start-button {
     background-color: #0061FF;
     color: white; 
-    padding: 3px 10px;  
+    padding: 3px 10px;
+    border: solid 1px white;
 }
 
 .start-button:hover {
@@ -83,24 +89,79 @@ a {
 
 .header-container-two {
     width: 100%;
-    height: 700px;
+    height: 670px;
     background-color: #B4D0E7;
+    padding-top: 60px; 
 }
 
 .header-two {
     margin: 0 auto;
-    width: 60%;
+    width: 70%;
     height: 650px;
+    padding-top: 100px;
+    padding-left: 50px;
 }
 
-.h1-header-two {
+/* Header H1  */
+.title-header-two-container {
+    height: 500px;
+    width: 80%;
+}
+
+.title-header-two {
     width: 100%;
-    height: 200px;
+    font-weight: 800;
+    font-size: 60px;
+    padding-bottom: 50px;
 }
+
+/* Header text button and img */
+
+.header-two-flex {
+    display: flex;
+}
+
+.header-two-text-button {
+    width: 350px;
+}
+
+#header-two-button {
+    background-color: #0061FF;
+    color: white; 
+    padding: 8px 10px;
+
+}
+
+#header-two-button:hover {
+    background-color: white;
+    color: #0061FF;
+    border: 1px solid #0061FF;
+}
+
+#header-two-button-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#arrow {
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.header-two-img-container {
+    width: 700px;
+    height: 350px;
+    padding-left: 30px;
+    position: relative;
+}
+
+.header-two-img {
+    position: absolute;
+    bottom: 0;
+}
+
+
 /* Main general */
-main .header-container-two {
-    padding-top: 60px;
-}
 
 .title-main {
     font-size: 35px;
@@ -114,6 +175,87 @@ main .header-container-two {
 img {
     max-width: 100%;
 }
+
+/* Business Plan */
+
+.business-plan-big-container {
+    padding-top: 200px;
+}
+
+.business-plan-small-container {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.title-business-plan {
+    padding-bottom: 50px;
+}
+
+/* Three Columns Section */
+
+.plan-background {
+    width: 100%;
+    height: 1200px;
+}
+
+.plan-column-flex {
+    margin: 0 auto;
+    width: 50%;
+    height: 900px;
+    display: flex;
+}
+
+.plan-column {
+    width: calc(100% / 3);
+    border: 2px solid rgb(233, 233, 233);
+    margin: 20px;
+}
+
+em {
+    color: grey;
+}
+/* Team Container */
+
+.team-background-container {
+    width: 100%;
+    height: 500px;
+
+}
+
+.team-container {
+    margin: 0 auto;
+    width: 50%;
+    height:250px;
+    border: 2px solid rgb(233, 233, 233);
+}
+
+.plan-for {
+    text-align: center;
+    border-bottom: 2px solid rgb(233, 233, 233);
+    padding: 10px;
+}
+.enterprise-flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.plan-type {
+    padding-bottom: 20px;
+}
+
+.enterprise-p {
+    padding: 20px;
+}
+
+.blue-button {
+    width: 250px;
+    color: white;
+    background-color: #0061FF;
+    padding: 10px 25px;
+}
+
+
 /* Dropbox Partner Section */
 
 .partner-big-container {
