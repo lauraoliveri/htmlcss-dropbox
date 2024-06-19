@@ -107,7 +107,7 @@ main {
 }
 /* Frequent */
 
-.frequent-container {
+.faqs-container {
     margin: 0 auto;
     width: 50%;
     height: 600px;
@@ -115,11 +115,15 @@ main {
     align-content: center;
 }
 
-.question {
+.question-entity {
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
+.question {
+    display: inline-block;
+    padding-right: 100px;
+}
 .title-main {
     font-size: 35px;
 }
