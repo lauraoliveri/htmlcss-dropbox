@@ -24,12 +24,12 @@ header {
     position: relative;
 }
 
-.header-container {
+.header-container-one {
     width: 100%;
     height: 60px;
     position: fixed;
     z-index: 1;
-    background-color: aquamarine;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,6 +38,7 @@ header {
 .header-left {
     display: flex;
 }
+
 /* Remove li dots and underline */
 
 .ul-header {
@@ -62,6 +63,10 @@ a {
     padding: 15px;
 }
 
+.text-space:hover {
+    background-color: rgba(230, 230, 230, 0.3);
+    border-radius: 50px;
+}
 .start-button {
     background-color: #0061FF;
     color: white; 
@@ -74,42 +79,174 @@ a {
     border: solid 1px #0061FF;
 }
 
-/* Main */
-main {
-    padding-top: 60px;
-}
+/* Header two */
 
-
-/* Free Trial */
-
-.free-trial-container {
+.header-container-two {
     width: 100%;
-    height: 200px;
+    height: 700px;
     background-color: #B4D0E7;
 }
 
-.free-trial {
+.header-two {
+    margin: 0 auto;
+    width: 60%;
+    height: 650px;
+}
+
+.h1-header-two {
+    width: 100%;
+    height: 200px;
+}
+/* Main general */
+main .header-container-two {
+    padding-top: 60px;
+}
+
+.title-main {
+    font-size: 35px;
+}
+
+.box-size {
     margin: 0 auto;
     width: 50%;
+}
+
+img {
+    max-width: 100%;
+}
+/* Dropbox Partner Section */
+
+.partner-big-container {
+    width: 100%;
+    height: 440px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.partner-small-container {
+    height: 400px;
     display: flex;
     justify-content: space-between;
 }
 
+#img-partner-container {
+    width: 450px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.text-nexttoimg {
+    padding-top: 60px;
+    width: 370px;
+}
+
+.text-title-p {
+    width: 230px;
+    padding-bottom: 25px;
+}
+
+.text-smaller {
+    font-size: smaller;
+}
+
+#button-partner {
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    border: solid 1px black;
+}
+
+#button-partner:hover {
+    background-color: #0061FF;
+    color: white;
+    border: none;
+}
+
+/* Dropbox Business Info */
+
+.dropbox-business-info-container {
+    width: 100%;
+    height: 1000px;
+    padding-top: 50px;
+}
+
+.business-info-small-container {
+    height: 900px;
+}
+
+.info-threecolumns-flex {
+    display: flex;
+    width: 100%;
+}
+
+.info-column {
+    padding: 15px;
+}
+
+.h3-title-column {
+    padding-bottom: 20px;
+}
+
+.title-businessinfo {
+    padding: 15px;
+}
+
+
+/* Dropbox Business Clients Section */
+
+.dropbox-clients-container {
+    width: 100%;
+    height: 300px;
+}
+
+.dropbox-clients {
+    padding-top: 60px;
+}
+
+.title-businessclients {
+    width: 600px;
+    padding-bottom: 60px;
+}
+.a-clients {
+    text-decoration: underline;
+    font-size: smaller;
+}
+/* Free Trial Section */
+
+.free-trial-container {
+    width: 100%;
+    height: 250px;
+    background-color: #B4D0E7;
+}
+
+.free-trial {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
 .free-trial-text {
     width: 500px;
+    color: #60072A;
 }
 
 .free-trial-button {
     width: 200px;
     color: black;
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 25px;
 }
-/* Frequent */
+
+.free-trial-button:hover {
+    background-color: #0061FF;
+    color: white;
+    border: none;
+}
+
+/* FAQs Section */
 
 .faqs-container {
-    margin: 0 auto;
-    width: 50%;
     height: 600px;
     padding: 20px;
     align-content: center;
@@ -122,11 +259,9 @@ main {
 
 .question {
     display: inline-block;
-    padding-right: 100px;
+    padding-right: 120px;
 }
-.title-main {
-    font-size: 35px;
-}
+
 .question-title {
     padding-bottom: 50px;
 }
